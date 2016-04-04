@@ -1,0 +1,24 @@
+{
+  "name": "@dlmanning/bind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test.js",
+    "docs": "jsdoc2md index.js > README.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.3.3",
+    "jsdom": "^8.2.0",
+    "react": "^0.14.8",
+    "react-addons-perf": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "tap": "^5.7.0"
+  },
+  "dependencies": {
+    "es6-map": "^0.1.3"
+  }
+}

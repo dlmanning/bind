@@ -1,8 +1,12 @@
 {
   "name": "@dlmanning/bind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bind and partially apply with memoization",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlmanning/bind.git"
+  },
   "scripts": {
     "test": "tap test/test.js",
     "docs": "jsdoc2md index.js > README.md"

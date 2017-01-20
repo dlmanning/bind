@@ -9,9 +9,13 @@
   },
   "scripts": {
     "test": "tap test/test.js",
-    "docs": "jsdoc2md index.js > README.md"
+    "docs": "jsdoc2md index.js > API.md"
   },
-  "keywords": [],
+  "keywords": [
+    "bind",
+    "partial",
+    "memoization"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
